@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    height: 400px;
+    width: 190px;
+    padding: 2.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+ background-color: orange;
+}
+.box2{
+    background-color: rgb(7, 126, 126);
+}
+.box3{
+    background-color: rgb(4, 43, 43);
+}
+.box h1{
+    font-stretch: ultra-condensed;
+    margin-top: 3rem;
+}
+.box p{
+  margin-top: 3rem; 
+  line-height: 25px;
+  /* color: rgb(241, 231, 231);  */
+  font-size: 15px;
+  margin-bottom: 5rem;
+}
+.box a {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 6rem;
+}
+.box1 a{
+    color: orange;
+}
+.box2 a{
+    color: rgb(7, 126, 126);
+}
+.box3 a{
+    color: rgb(4, 43, 43);
+}
+.box a:hover{
+    color: white;
+    border: 1px solid white;
+}
+.box1 a:hover{
+    background-color: orange;
+}
+.box2 a:hover{
+    background-color: rgb(7, 126, 126);
+}
+
+.box3 a:hover{
+    background-color: rgb(4, 43, 43);
+}
